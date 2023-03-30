@@ -10,4 +10,9 @@ public class Alumno {
 		this.dni=dni;
 	}
 
+	@Override
+	public String toString() {
+		return "Alumno tiene nombre: " + nombre + ", apellido: " + apellido + ", dni: " + dni ;
+	}
+
 }
